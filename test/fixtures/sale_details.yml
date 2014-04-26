@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sale_id: 1
+  food_id: 1
+  quantity: 1
+  amount: 1.5
+
+two:
+  sale_id: 1
+  food_id: 1
+  quantity: 1
+  amount: 1.5

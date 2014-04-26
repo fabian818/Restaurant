@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Person:</strong>
+  <%= @waiter.person_id %>
+</p>
+
+<p>
+  <strong>Clients:</strong>
+  <%= @waiter.clients %>
+</p>
+
+<p>
+  <strong>Salary:</strong>
+  <%= @waiter.salary %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @waiter.state %>
+</p>
+
+<%= link_to 'Edit', edit_waiter_path(@waiter) %> |
+<%= link_to 'Back', waiters_path %>

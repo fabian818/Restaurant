@@ -1,0 +1,14 @@
+<h1>Logueo</h1>
+<%=form_tag({controller: "security", action: "login"}, method: "post") do%>
+	<div class="field">
+		<%=label_tag :username, 'Usuario'%>
+		<%=text_field_tag :username%>
+	</div>
+	<div class="field">
+		<%=label_tag :password, 'Contraseña'%>
+		<%=password_field_tag :password%>
+	</div>
+	<div class="action">
+		<%=submit_tag 'Ingresar'%>
+	</div>
+<%end%>

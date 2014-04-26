@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Person:</strong>
+  <%= @chef.person_id %>
+</p>
+
+<p>
+  <strong>Cooked:</strong>
+  <%= @chef.cooked %>
+</p>
+
+<p>
+  <strong>Salary:</strong>
+  <%= @chef.salary %>
+</p>
+
+<%= link_to 'Edit', edit_chef_path(@chef) %> |
+<%= link_to 'Back', chefs_path %>

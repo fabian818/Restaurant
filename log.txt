@@ -1,0 +1,20 @@
+Campos en las tablas : 
+Person : 
+	name:s
+	dni:s
+	lastname:s
+	email:s
+
+Chef : 
+	person_id:i
+	cooked:i
+	salary:f
+	
+Waiter : 
+	person_id:i
+	clients:i
+	salary:f
+
+Client : 
+	
+	

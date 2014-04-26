@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  food_type_id: 1
+  noun: MyString
+  description: MyText
+  cost: 1.5
+
+two:
+  food_type_id: 1
+  noun: MyString
+  description: MyText
+  cost: 1.5
