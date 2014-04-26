@@ -1,4 +1,22 @@
 Rails.application.routes.draw do
+  resources :sale_details
+
+  resources :sales
+
+  resources :foods
+
+  resources :food_types
+
+  resources :administrators
+
+  resources :clients
+
+  resources :waiters
+
+  resources :chefs
+
+  resources :people
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
