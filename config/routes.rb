@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'welcome/index'
+
+  resources :administrators
+
+  post 'security/login'
+
+  post 'security/logout'
+
+  get 'security/index'
+
   resources :sale_details
 
   resources :sales
@@ -6,8 +16,6 @@ Rails.application.routes.draw do
   resources :foods
 
   resources :food_types
-
-  resources :administrators
 
   resources :clients
 
